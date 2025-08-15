@@ -62,7 +62,7 @@ export default function Navigation() {
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
-              className="p-2 rounded-lg hover:bg-white/10 transition-colors duration-300"
+              className="p-2 rounded-lg hover:bg-white/10 dark:hover:bg-white/10 hover:bg-black/10 transition-colors duration-300 text-gray-300 dark:text-gray-300 hover:text-white dark:hover:text-white"
               data-testid="button-theme-toggle"
             >
               {theme === "dark" ? (
