@@ -1,0 +1,77 @@
+Build me a modern, sleek, fast, and professional multi-page website for a digital services agency named Ikonnect Service. The website must use cutting-edge technologies (HTML5, CSS3 with TailwindCSS or modern CSS frameworks, JavaScript/TypeScript, and optionally React or Next.js for high performance).
+
+Our Services:
+
+Data Automation
+
+AI Web Development
+
+Digital Marketing
+
+Social Media Management
+
+AI Integration
+
+Chatbot Development
+
+Web Scraping & Data Extraction
+
+Pages Required:
+
+Home –
+
+Hero section with a modern, tech-inspired 3D or futuristic mockup (e.g., holographic dashboards, AI circuits, floating UI panels).
+
+Bold headline and subheadline showcasing innovation and results.
+
+Strong call-to-action buttons (“Get Started”, “Book a Free Consultation”).
+
+Highlights of main services, recent work, testimonials, and contact prompt.
+
+About Us – Mission, vision, team profiles, and professional images.
+
+Services Overview – Grid or card layout with short descriptions, each linking to its own detail page.
+
+Service Detail Pages – One separate page per service with benefits, process, and past results.
+
+Portfolio –
+
+Showcase past projects in a clean, filterable grid.
+
+Each project should have its own lightbox or dedicated page with details, images, and measurable results.
+
+Our Process – Visual, step-by-step breakdown of how we work with clients, using icons or infographics.
+
+Blog –
+
+Modern blog layout with featured images, categories, and tags.
+
+Each blog post should have a clean, readable format with space for related posts.
+
+Contact – Professional form, map integration, and direct contact details.
+
+Design Guidelines:
+
+Minimal, clean layout with strategic white space.
+
+Bold, futuristic typography for headings.
+
+Smooth animations and micro-interactions for hover and scroll events.
+
+Mobile-first, fully responsive design.
+
+Fast-loading, SEO-optimized code with best practices.
+
+Professional high-contrast color palette (dark theme with vibrant accent).
+
+Include light & dark mode toggle.
+
+Extra Features:
+
+Sticky navigation bar with smooth scrolling.
+
+Fast page transitions with subtle animations.
+
+Clear CTAs placed across all pages.
+
+The website must communicate trust, innovation, and measurable results, appealing to both corporate clients and tech-savvy startups. Tone should be confident, inspiring, and professional.
