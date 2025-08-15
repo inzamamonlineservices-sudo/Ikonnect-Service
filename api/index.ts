@@ -1,6 +1,4 @@
 import express from "express";
-import path from "path";
-import fs from "fs";
 
 const app = express();
 app.use(express.json());
@@ -65,24 +63,10 @@ app.get("/api/blog", async (req, res) => {
   }
 });
 
-// Serve static files in production
-if (process.env.NODE_ENV === "production") {
-  const distPath = path.resolve(process.cwd(), "dist", "public");
-  
-  if (fs.existsSync(distPath)) {
-    app.use(express.static(distPath));
-    
-    // Serve index.html for all routes (SPA)
-    app.get("*", (req, res) => {
-      res.sendFile(path.resolve(distPath, "index.html"));
-    });
-  } else {
-    // Fallback if dist doesn't exist
-    app.get("*", (req, res) => {
-      res.json({ message: "API is working, but frontend is not built yet" });
-    });
-  }
-}
+// Health check endpoint
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok", message: "API is running" });
+});
 
 // Export for Vercel serverless
 export default app;
