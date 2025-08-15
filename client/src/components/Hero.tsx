@@ -17,9 +17,9 @@ export default function Hero() {
           <div className="text-center lg:text-left animate-slideUp">
             <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
               <span className="text-gradient">Digital Innovation</span><br />
-              <span className="text-white">That Delivers</span>
+              <span className="text-white dark:text-white text-gray-900">That Delivers</span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl">
+            <p className="text-xl text-gray-300 dark:text-gray-300 text-gray-700 mb-8 max-w-2xl">
               Transform your business with cutting-edge AI solutions, automation, and digital strategies that drive measurable results. We turn complex challenges into competitive advantages.
             </p>
 
@@ -48,15 +48,15 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
               <div className="text-center">
                 <div className="text-3xl font-bold text-gradient" data-testid="stat-projects">500+</div>
-                <div className="text-gray-400 text-sm">Projects Delivered</div>
+                <div className="text-gray-400 dark:text-gray-400 text-gray-600 text-sm">Projects Delivered</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gradient" data-testid="stat-satisfaction">98%</div>
-                <div className="text-gray-400 text-sm">Client Satisfaction</div>
+                <div className="text-gray-400 dark:text-gray-400 text-gray-600 text-sm">Client Satisfaction</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-gradient" data-testid="stat-roi">300%</div>
-                <div className="text-gray-400 text-sm">Average ROI</div>
+                <div className="text-gray-400 dark:text-gray-400 text-gray-600 text-sm">Average ROI</div>
               </div>
             </div>
           </div>
